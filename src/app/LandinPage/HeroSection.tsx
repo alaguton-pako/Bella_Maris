@@ -13,7 +13,7 @@ export const HeroSection = () => {
         width={"100%"}
         sx={{
           position: "relative",
-          backgroundColor: "#0D5D8C"
+          backgroundColor: "#0D5D8C",
         }}
       >
         <Box>
@@ -74,7 +74,7 @@ export const HeroSection = () => {
                     fontSize: { xs: "1.2rem", sm: "1.4rem" },
                     fontWeight: "500",
                     textAlign: "justify",
-                    color:"#fff"
+                    color: "#fff",
                   }}
                 >
                   Bella Maris is your number one choice for making standout
@@ -91,7 +91,7 @@ export const HeroSection = () => {
               >
                 <Stack spacing={2} direction={"column"}>
                   <CustomButton
-                    title="Get a quote for free"
+                    title="Get a free quote"
                     variant="contained"
                     sx={{ backgroundColor: "green" }}
                   />

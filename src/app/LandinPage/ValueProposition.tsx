@@ -68,7 +68,7 @@ export const ValuePropositionSection = () => {
                       gap: "1rem",
                     }}
                   >
-                    <CustomButton title="Get free quote" variant="contained" />
+                    <CustomButton title="Get a free quote" variant="contained" />
                   </Box>
                 </Box>
               </Grid>
@@ -151,7 +151,7 @@ export const ValuePropositionSection = () => {
                       gap: "1rem",
                     }}
                   >
-                    <CustomButton title="Get free quote" variant="contained" />
+                    <CustomButton title="Get a free quote" variant="contained" />
                   </Box>
                   <Box sx={{ marginY: "1rem" }}>
                     <IconButton>

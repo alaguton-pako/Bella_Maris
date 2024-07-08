@@ -50,7 +50,7 @@ export const GetStartedPage = () => {
                 </Typography>
                 <Box>
                   <CustomButton
-                    title="Get free quote"
+                    title="Get a free quote"
                     variant="outlined"
                     sx={{
                       background: "inherit",

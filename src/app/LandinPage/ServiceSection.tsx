@@ -86,7 +86,7 @@ export const ServicesSection = () => {
                       </Typography>
                       <div style={{ marginTop: "0.8rem" }}>
                         <CustomButton
-                          title="Get free quote"
+                          title="Get a free quote"
                           variant="contained"
                         />
                       </div>

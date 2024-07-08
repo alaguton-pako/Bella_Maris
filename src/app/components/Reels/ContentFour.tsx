@@ -37,7 +37,7 @@ export default function MediaControlCardFour() {
               gap: "1rem",
             }}
           >
-            <CustomButton title="Get free quote" variant="contained" />
+            <CustomButton title="Get a free quote" variant="contained" />
           </Box>
         </CardActions>
       </Box>

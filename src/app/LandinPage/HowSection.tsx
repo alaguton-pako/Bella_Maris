@@ -113,7 +113,7 @@ export const HowSection = () => {
               position: "relative",
             }}
           >
-            <CustomButton title="Get quote for free" variant="contained" />
+            <CustomButton title="Get a free quote" variant="contained" />
           </Box>
         </Box>
       </Box>
