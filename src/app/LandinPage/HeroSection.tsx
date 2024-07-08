@@ -13,9 +13,7 @@ export const HeroSection = () => {
         width={"100%"}
         sx={{
           position: "relative",
-          backgroundImage:
-            "linear-gradient(to right, rgba(64, 81, 191, 1), rgba(64, 81, 191, 0.9))",
-          color: "#fff",
+          backgroundColor: "#0D5D8C"
         }}
       >
         <Box>
@@ -76,6 +74,7 @@ export const HeroSection = () => {
                     fontSize: { xs: "1.2rem", sm: "1.4rem" },
                     fontWeight: "500",
                     textAlign: "justify",
+                    color:"#fff"
                   }}
                 >
                   Bella Maris is your number one choice for making standout

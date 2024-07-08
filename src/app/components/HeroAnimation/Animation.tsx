@@ -10,6 +10,7 @@ export const HeroAnimationComponent = () => {
         paddingX: "1rem",
         fontSize: { xs: "3rem", sm: "6rem" },
         fontWeight: "600",
+        color:"#fff"
       }}
     >
       Call us for your <br />
