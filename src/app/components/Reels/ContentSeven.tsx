@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import CustomButton from "../CustomButton";
+
 import NextImage from "next/image";
 
 export default function MediaControlCardSeven() {
@@ -28,17 +28,7 @@ export default function MediaControlCardSeven() {
             Elevate your corporate gatherings with our delectable treats
           </Typography>
         </CardContent>
-        <CardActions>
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              gap: "1rem",
-            }}
-          >
-            <CustomButton title="Get a free quote" variant="contained" />
-          </Box>
-        </CardActions>
+    
       </Box>
       <NextImage
         width={150}

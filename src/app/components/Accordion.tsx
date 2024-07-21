@@ -26,7 +26,7 @@ export default function BasicAccordion() {
             }}
           >
             {" "}
-            Is Bella Maris Confectionaries a scam ?
+            Is Bellamaris Confectionaries a scam ?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -36,7 +36,7 @@ export default function BasicAccordion() {
               fontSize: "1.3rem",
             }}
           >
-            Bella maris is legit in it service delivery and have not had any
+            Bellamaris is legit in it service delivery and have not had any
             case of scam since it begun operation 2020
           </Typography>
         </AccordionDetails>
@@ -60,7 +60,7 @@ export default function BasicAccordion() {
             }}
           >
             {" "}
-            Does Bella Maris cook rice too ?
+            Does Bellamaris cook rice too ?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -93,7 +93,7 @@ export default function BasicAccordion() {
             }}
           >
             {" "}
-            Is Bella Maris Quote free ?
+            Is Bellamaris Quote free ?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>

@@ -5,6 +5,7 @@ interface CustomButtonProps {
   variant?: "text" | "outlined" | "contained";
   sx?: React.CSSProperties;
   href?: string;
+  onClick?: () => void;
 }
 
 const CustomButton: React.FC<CustomButtonProps> = ({
@@ -12,6 +13,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
   variant,
   sx,
   href,
+  onClick,
 }) => {
   const defaultSx: React.CSSProperties = {
     textTransform: "none",
@@ -27,7 +29,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
   if (href) {
     return (
       <a href={href} target="_blank" rel="noopener noreferrer">
-        <Button variant={variant} sx={defaultSx}>
+        <Button variant={variant} sx={defaultSx} onClick={onClick}>
           {title}
         </Button>
       </a>
@@ -35,7 +37,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
   }
 
   return (
-    <Button variant={variant} sx={defaultSx}>
+    <Button variant={variant} sx={defaultSx} onClick={onClick}>
       {title}
     </Button>
   );

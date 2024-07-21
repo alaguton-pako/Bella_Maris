@@ -1,7 +1,6 @@
 import { Box, Typography, Grid } from "@mui/material";
 import CustomCard from "../components/CustomCard";
 import userImage from "../../images/userImage.png";
-import CustomButton from "../components/CustomButton";
 
 export const HowSection = () => {
   return (
@@ -77,7 +76,7 @@ export const HowSection = () => {
                 }}
                 src={userImage}
                 title="Mr Taofeeq"
-                content="Bella Marie's catering service made our wedding day unforgettable, with every bite a taste of perfection."
+                content="Bellamaris catering service made our wedding day unforgettable, with every bite a taste of perfection."
               />
             </Grid>
             <Grid item xs={12} md={4}>
@@ -89,7 +88,7 @@ export const HowSection = () => {
                 }}
                 src={userImage}
                 title="Mr Gabriel"
-                content="Bella Marie's birthday catering was a hit! Every dish was delightful, making our celebration truly special."
+                content="Bellamaris birthday catering was a hit! Every dish was delightful, making our celebration truly special."
               />
             </Grid>
             <Grid item xs={12} md={4}>
@@ -101,20 +100,10 @@ export const HowSection = () => {
                 }}
                 src={userImage}
                 title="John Doe"
-                content="Bella Marie's corporate catering service impressed everyone at our event. Each bite was exquisite, leaving a lasting impression."
+                content="Bellamaris corporate catering service impressed everyone at our event. Each bite was exquisite, leaving a lasting impression."
               />
             </Grid>
           </Grid>
-
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              position: "relative",
-            }}
-          >
-            <CustomButton title="Get a free quote" variant="contained" />
-          </Box>
         </Box>
       </Box>
     </>

@@ -1,10 +1,10 @@
 import { Box, Grid, IconButton, Typography } from "@mui/material";
-import CustomButton from "../components/CustomButton";
 import swiftnessImage from "../../images/swiftImage.png";
 import safetyImage from "../../images/safetyImage.png";
 import supportImage from "../../images/supportImage.png";
 import Image from "next/image";
-import { WhatsApp, Facebook, Instagram, Twitter } from "@mui/icons-material";
+import { WhatsApp, Facebook, Instagram } from "@mui/icons-material";
+import XIcon from "@mui/icons-material/X";
 
 export const ValuePropositionSection = () => {
   return (
@@ -58,18 +58,9 @@ export const ValuePropositionSection = () => {
                       fontSize: "1.3rem",
                     }}
                   >
-                    Bella Maris confectionaries ensures that you receive your
+                    Bellamaris confectionaries ensures that you receive your
                     products on time and in perfect condition.
                   </Typography>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "1rem",
-                    }}
-                  >
-                    <CustomButton title="Get a free quote" variant="contained" />
-                  </Box>
                 </Box>
               </Grid>
               <Grid item xs={12} md={6}>
@@ -144,21 +135,12 @@ export const ValuePropositionSection = () => {
                   >
                     find us across all social media platforms
                   </Typography>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "1rem",
-                    }}
-                  >
-                    <CustomButton title="Get a free quote" variant="contained" />
-                  </Box>
                   <Box sx={{ marginY: "1rem" }}>
                     <IconButton>
                       <Facebook sx={{ fontSize: "3rem", color: "blue" }} />
                     </IconButton>
                     <IconButton>
-                      <Twitter sx={{ fontSize: "3rem" }} />
+                      <XIcon sx={{ fontSize: "3rem" }} />
                     </IconButton>
                     <IconButton>
                       <WhatsApp sx={{ fontSize: "3rem", color: "green" }} />
@@ -196,7 +178,7 @@ export const ValuePropositionSection = () => {
                 <Box component="span" sx={{ color: "#6674CC" }}>
                   number 1 stop
                 </Box>{" "}
-                for all of your confectionaries services
+                for all events
               </Typography>
               <Typography
                 variant="h5"
@@ -206,7 +188,7 @@ export const ValuePropositionSection = () => {
                   lineHeight: "3rem",
                 }}
               >
-                Top-notch delivery of confectionaries at affordable prices,
+                Top-notch delivery at affordable prices,
                 offering reliable service that assures a job well done.
               </Typography>
             </Box>
@@ -359,15 +341,6 @@ export const ValuePropositionSection = () => {
               </Grid>
             </Box>
           </Grid>
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              paddingBottom: "6rem",
-            }}
-          >
-            <CustomButton title="Get a free quote" variant="contained" />
-          </Box>
         </Box>
       </Box>
     </>

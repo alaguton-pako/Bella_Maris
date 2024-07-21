@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import CustomButton from "../CustomButton";
 import NextImage from "next/image";
 
 export default function MediaControlCardEight() {
@@ -28,17 +27,6 @@ export default function MediaControlCardEight() {
             Celebrate a sweet ending and new beginnings
           </Typography>
         </CardContent>
-        <CardActions>
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              gap: "1rem",
-            }}
-          >
-            <CustomButton title="Get a free quote" variant="contained" />
-          </Box>
-        </CardActions>
       </Box>
       <NextImage
         width={150}

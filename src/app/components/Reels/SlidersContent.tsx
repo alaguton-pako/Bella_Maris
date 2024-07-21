@@ -3,8 +3,6 @@ import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import reelImage from "../../../images/reel2.png";
-import CustomButton from "../CustomButton";
 import NextImage from "next/image";
 
 export default function MediaControlCard() {
@@ -29,17 +27,6 @@ export default function MediaControlCard() {
             let make unforgettable memories with you
           </Typography>
         </CardContent>
-        <CardActions>
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              gap: "1rem",
-            }}
-          >
-            <CustomButton title="Get a free quote" variant="contained" />
-          </Box>
-        </CardActions>
       </Box>
       <NextImage
         width={150}

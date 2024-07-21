@@ -1,4 +1,5 @@
 import { ResponsiveAppBar } from "./LandinPage/AppBar";
+import Footer from "./LandinPage/Footer";
 import { FrequentlyAskedQuestionSection } from "./LandinPage/FrequentlyAskedQuestion";
 import { GetStartedPage } from "./LandinPage/GetStartedPage";
 import { HeroSection } from "./LandinPage/HeroSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <ValuePropositionSection />
       <FrequentlyAskedQuestionSection />
       <GetStartedPage />
+      <Footer />
     </main>
   );
 }
