@@ -6,9 +6,9 @@ import CssBaseline from "@mui/material/CssBaseline";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bella Maris Cake and Confectionaries",
+  title: "Bellamaris Cake's and More",
   description:
-    "welcome to Bella maris cake and confectionaries, your number one stop for all of your events catering needs",
+    "welcome to Bellamaris cake's and more, your number one stop for all of your events catering needs",
 };
 
 export default function RootLayout({

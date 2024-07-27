@@ -55,10 +55,10 @@ export const ValuePropositionSection = () => {
                     sx={{
                       marginY: "1rem",
                       fontWeight: "400",
-                      fontSize: "1.3rem",
+                      fontSize: "1.5rem",
                     }}
                   >
-                    Bellamaris confectionaries ensures that you receive your
+                    Bellamaris cake&apos;s and more ensures that you receive your
                     products on time and in perfect condition.
                   </Typography>
                 </Box>
@@ -121,7 +121,7 @@ export const ValuePropositionSection = () => {
                     }}
                   >
                     <Box component="span" sx={{ color: "#6674CC" }}>
-                      Easy Access,
+                      Easy access,
                     </Box>{" "}
                     accross all digital platform
                   </Typography>
@@ -130,7 +130,7 @@ export const ValuePropositionSection = () => {
                     sx={{
                       marginY: "1rem",
                       fontWeight: "400",
-                      fontSize: "1.3rem",
+                      fontSize: "1.5rem",
                     }}
                   >
                     find us across all social media platforms
@@ -170,15 +170,15 @@ export const ValuePropositionSection = () => {
                 sx={{
                   textAlign: "center",
                   paddingTop: "15rem",
-                  paddingBottom: "5rem",
+                  paddingBottom: "2rem",
                   fontWeight: 800,
                 }}
               >
                 Your{" "}
                 <Box component="span" sx={{ color: "#6674CC" }}>
-                  number 1 stop
+                  Number 1 Stop
                 </Box>{" "}
-                for all events
+                For All Events
               </Typography>
               <Typography
                 variant="h5"

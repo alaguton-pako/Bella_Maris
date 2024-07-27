@@ -20,10 +20,10 @@ export default function MediaControlCard() {
     >
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
-          <Typography component="div" variant="h5">
+          <Typography component="div" variant="h4">
             Birthday Parties
           </Typography>
-          <Typography variant="subtitle1" marginY={2}>
+          <Typography variant="h6" my={1}>
             let make unforgettable memories with you
           </Typography>
         </CardContent>

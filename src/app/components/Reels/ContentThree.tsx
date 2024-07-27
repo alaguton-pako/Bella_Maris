@@ -20,10 +20,10 @@ export default function MediaControlCardThree() {
     >
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
-          <Typography component="div" variant="h5">
+          <Typography component="div" variant="h4">
             Graduation Celebrations
           </Typography>
-          <Typography variant="subtitle1" marginY={2}>
+          <Typography variant="h6" marginY={1}>
             Celebrate your achievements in style
           </Typography>
         </CardContent>

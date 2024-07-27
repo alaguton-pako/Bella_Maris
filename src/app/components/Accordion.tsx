@@ -22,7 +22,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: "bold",
-              fontSize: "1.4rem",
+              fontSize: "1.5rem",
             }}
           >
             {" "}
@@ -33,7 +33,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: 400,
-              fontSize: "1.3rem",
+              fontSize: "1.5rem",
             }}
           >
             Bellamaris is legit in it service delivery and have not had any
@@ -56,7 +56,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: "bold",
-              fontSize: "1.4rem",
+              fontSize: "1.5rem",
             }}
           >
             {" "}
@@ -67,7 +67,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: 400,
-              fontSize: "1.3rem",
+              fontSize: "1.5rem",
             }}
           >
             Yes, we provide rice dishes in various forms.
@@ -89,7 +89,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: "bold",
-              fontSize: "1.4rem",
+              fontSize: "1.5rem",
             }}
           >
             {" "}
@@ -100,7 +100,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: 400,
-              fontSize: "1.3rem",
+              fontSize: "1.5rem",
             }}
           >
             Yes, when you apply for one of our service you get a quote of your
@@ -123,7 +123,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: "bold",
-              fontSize: "1.4rem",
+              fontSize: "1.5rem",
             }}
           >
             {" "}
@@ -134,7 +134,7 @@ export default function BasicAccordion() {
           <Typography
             sx={{
               fontWeight: 400,
-              fontSize: "1.3rem",
+              fontSize: "1.5rem",
             }}
           >
             Service delivery can vary by order size and event type, kindly send

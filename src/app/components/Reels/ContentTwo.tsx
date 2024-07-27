@@ -19,10 +19,10 @@ export default function MediaControlCardTwo() {
     >
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
-          <Typography component="div" variant="h5">
+          <Typography component="div" variant="h4">
             Festival Celebrations
           </Typography>
-          <Typography variant="subtitle1" marginY={2}>
+          <Typography variant="h6" marginY={1}>
             Embrace the spirit of festival with us
           </Typography>
         </CardContent>

@@ -27,7 +27,13 @@ const Footer = () => {
               <XIcon sx={{ fontSize: "3rem" }} />
             </IconButton>
             <IconButton>
-              <WhatsApp sx={{ fontSize: "3rem", color: "green" }} />
+              <a
+                href="https://api.whatsapp.com/send?phone=+2349052536467&text=Hi!%20Please%20can%20i%20get%a%quote"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <WhatsApp sx={{ fontSize: "3rem", color: "green" }} />
+              </a>
             </IconButton>
             <IconButton>
               <Instagram sx={{ fontSize: "3rem", color: "red" }} />

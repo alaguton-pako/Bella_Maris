@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Grid, Box, Chip, Typography, Stack } from "@mui/material";
 import CustomButton from "../components/CustomButton";
 import vectorImage2 from "../../images/ArrowVectorLeft.png";
@@ -63,7 +63,7 @@ export const HeroSection = () => {
                       fontSize: "1.4rem",
                       fontWeight: 400,
                     },
-                    border: "4px solid green",
+                    border: "2px solid green",
                     borderRadius: "1rem",
                     backgroundColor: "inherit",
                     color: "#fff",
@@ -76,7 +76,7 @@ export const HeroSection = () => {
 
               <Box
                 sx={{
-                  marginY: "6rem",
+                  marginY: "3rem",
                   paddingX: "2rem",
                 }}
               >
@@ -84,7 +84,6 @@ export const HeroSection = () => {
                   sx={{
                     fontSize: { xs: "1.2rem", sm: "1.4rem" },
                     fontWeight: "500",
-                    textAlign: "justify",
                     color: "#fff",
                   }}
                 >

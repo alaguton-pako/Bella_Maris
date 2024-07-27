@@ -54,7 +54,7 @@ export const ResponsiveAppBar = () => {
                 />
               </div>
               <Typography variant="h5" fontWeight={600} sx={{ color: "green" }}>
-                BELLAMARIS Cake&apos;s AND MORE
+                Bellamaris Cake&apos;s and More
               </Typography>
             </div>
 

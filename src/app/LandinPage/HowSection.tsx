@@ -30,7 +30,7 @@ export const HowSection = () => {
                 fontWeight={"700"}
                 sx={{
                   paddingX: { xs: "4rem", md: "3rem", lg: "6rem" },
-                  paddingY: "3rem",
+                  paddingY: "2rem",
                   fontSize: { xs: "3rem", md: "3rem", lg: "3rem" },
                 }}
               >
@@ -46,8 +46,8 @@ export const HowSection = () => {
               <Typography
                 variant="h5"
                 sx={{
-                  marginTop: "1rem",
-                  marginBottom: "2rem",
+                  marginTop: "0.5rem",
+                  marginBottom: "0.5rem",
                   color: "#5F5E63",
                   textAlign: "center",
                 }}

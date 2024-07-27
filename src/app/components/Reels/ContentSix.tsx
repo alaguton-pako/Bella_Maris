@@ -20,10 +20,10 @@ export default function MediaControlCardSix() {
     >
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
-          <Typography component="div" variant="h5">
+          <Typography component="div" variant="h4">
             Baby Shower Delights
           </Typography>
-          <Typography variant="subtitle1" marginY={2}>
+          <Typography variant="h6" marginY={1}>
             Celebrate new beginnings with a touch of sweetness
           </Typography>
         </CardContent>
