@@ -1,6 +1,9 @@
 import { Box, Typography, Grid } from "@mui/material";
 import CustomCard from "../components/CustomCard";
 import userImage from "../../images/userImage.png";
+import mrAda from "../../images/mrAda.avif";
+import mrsblake from "../../images/mrsblake.avif";
+import mrslong from "../../images/mrslong.avif";
 
 export const HowSection = () => {
   return (
@@ -74,7 +77,7 @@ export const HowSection = () => {
                   fontSize: 14,
                   fontWeight: "400",
                 }}
-                src={userImage}
+                src={mrAda}
                 title="Mr Taofeeq"
                 content="Bellamaris catering service made our wedding day unforgettable, with every bite a taste of perfection."
               />
@@ -86,8 +89,8 @@ export const HowSection = () => {
                   fontSize: 14,
                   fontWeight: "400",
                 }}
-                src={userImage}
-                title="Mr Gabriel"
+                src={mrslong}
+                title="Mrs Oyindamola"
                 content="Bellamaris birthday catering was a hit! Every dish was delightful, making our celebration truly special."
               />
             </Grid>
@@ -98,8 +101,8 @@ export const HowSection = () => {
                   fontSize: 14,
                   fontWeight: "400",
                 }}
-                src={userImage}
-                title="John Doe"
+                src={mrsblake}
+                title="Mrs Banjo"
                 content="Bellamaris corporate catering service impressed everyone at our event. Each bite was exquisite, leaving a lasting impression."
               />
             </Grid>

@@ -58,8 +58,8 @@ export const ValuePropositionSection = () => {
                       fontSize: "1.5rem",
                     }}
                   >
-                    Bellamaris cake&apos;s and more ensures that you receive your
-                    products on time and in perfect condition.
+                    Bellamaris cake&apos;s and more ensures that you receive
+                    your products on time and in perfect condition.
                   </Typography>
                 </Box>
               </Grid>
@@ -143,7 +143,13 @@ export const ValuePropositionSection = () => {
                       <XIcon sx={{ fontSize: "3rem" }} />
                     </IconButton>
                     <IconButton>
-                      <WhatsApp sx={{ fontSize: "3rem", color: "green" }} />
+                      <a
+                        href="https://api.whatsapp.com/send?phone=+2349052536467&text=Hi!%20Please%20can%20i%20get%a%quote"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <WhatsApp sx={{ fontSize: "3rem", color: "green" }} />
+                      </a>
                     </IconButton>
                     <IconButton>
                       <Instagram sx={{ fontSize: "3rem", color: "red" }} />
@@ -188,8 +194,8 @@ export const ValuePropositionSection = () => {
                   lineHeight: "3rem",
                 }}
               >
-                Top-notch delivery at affordable prices,
-                offering reliable service that assures a job well done.
+                Top-notch delivery at affordable prices, offering reliable
+                service that assures a job well done.
               </Typography>
             </Box>
 
